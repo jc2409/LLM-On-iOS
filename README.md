@@ -2,9 +2,6 @@
 
 This project demonstrates how to integrate and run the **Gemma 2B** language model on iOS devices using **MediaPipe Tasks GenAI**. It showcases on-device natural language processing (NLP) and generation, providing efficient, customizable LLM inference.
 
-## Demo Video
-(https://github.com/jc2409/LLM-On-iOS/blob/main/llm-on-ios%20demo.mp4))
-
 ## Project Overview
 
 LLM-on-iOS is an iOS application that integrates the **Gemma 2B** model to perform on-device natural language processing and generation tasks. The application utilises **MediaPipe Tasks GenAI** for efficient inference, enabling NLP functionalities directly on iOS devices without the need for cloud-based services.
