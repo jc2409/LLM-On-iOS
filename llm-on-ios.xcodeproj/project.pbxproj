@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063B54AA16E47C1F8B84BEB8 /* Pods_llm_on_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492EE3E8D72B4E15F19EEC5F /* Pods_llm_on_ios.framework */; };
+		2A0AD9292CA815E5005838B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0AD9262CA815E5005838B7 /* ContentView.swift */; };
+		2A0AD92A2CA815E5005838B7 /* llm_on_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0AD9272CA815E5005838B7 /* llm_on_iosApp.swift */; };
+		2A0AD92C2CA815E5005838B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0AD9252CA815E5005838B7 /* Assets.xcassets */; };
+		2A0AD9322CA815EF005838B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0AD9302CA815EF005838B7 /* Preview Assets.xcassets */; };
+		2A0AD9342CA81D12005838B7 /* gemma-2b-it-cpu-int4.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2A0AD9332CA81D12005838B7 /* gemma-2b-it-cpu-int4.bin */; };
+		2A0AD9362CA820BE005838B7 /* llm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0AD9352CA820BB005838B7 /* llm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1265D47AFD2842160DA72A15 /* Pods-llm-on-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llm-on-ios.debug.xcconfig"; path = "Target Support Files/Pods-llm-on-ios/Pods-llm-on-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0AD9122CA815DB005838B7 /* llm-on-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "llm-on-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0AD9252CA815E5005838B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A0AD9262CA815E5005838B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A0AD9272CA815E5005838B7 /* llm_on_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = llm_on_iosApp.swift; sourceTree = "<group>"; };
+		2A0AD9302CA815EF005838B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A0AD9332CA81D12005838B7 /* gemma-2b-it-cpu-int4.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "gemma-2b-it-cpu-int4.bin"; sourceTree = "<group>"; };
+		2A0AD9352CA820BB005838B7 /* llm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = llm.swift; sourceTree = "<group>"; };
+		492EE3E8D72B4E15F19EEC5F /* Pods_llm_on_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_llm_on_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD63CE06271293E6FA9AD0FF /* Pods-llm-on-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llm-on-ios.release.xcconfig"; path = "Target Support Files/Pods-llm-on-ios/Pods-llm-on-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0AD90F2CA815DB005838B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063B54AA16E47C1F8B84BEB8 /* Pods_llm_on_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0AD9092CA815DB005838B7 = {
+			isa = PBXGroup;
+			children = (
+				2A0AD9282CA815E5005838B7 /* llm-on-ios */,
+				2A0AD9132CA815DB005838B7 /* Products */,
+				83B8AA9C61FF76ABA4CFF0D0 /* Pods */,
+				FB6ECED5D495A61939AFA861 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0AD9132CA815DB005838B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0AD9122CA815DB005838B7 /* llm-on-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0AD9282CA815E5005838B7 /* llm-on-ios */ = {
+			isa = PBXGroup;
+			children = (
+				2A0AD9352CA820BB005838B7 /* llm.swift */,
+				2A0AD9312CA815EF005838B7 /* Preview Content */,
+				2A0AD9252CA815E5005838B7 /* Assets.xcassets */,
+				2A0AD9332CA81D12005838B7 /* gemma-2b-it-cpu-int4.bin */,
+				2A0AD9262CA815E5005838B7 /* ContentView.swift */,
+				2A0AD9272CA815E5005838B7 /* llm_on_iosApp.swift */,
+			);
+			path = "llm-on-ios";
+			sourceTree = "<group>";
+		};
+		2A0AD9312CA815EF005838B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A0AD9302CA815EF005838B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83B8AA9C61FF76ABA4CFF0D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1265D47AFD2842160DA72A15 /* Pods-llm-on-ios.debug.xcconfig */,
+				FD63CE06271293E6FA9AD0FF /* Pods-llm-on-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB6ECED5D495A61939AFA861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492EE3E8D72B4E15F19EEC5F /* Pods_llm_on_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0AD9112CA815DB005838B7 /* llm-on-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0AD9202CA815DC005838B7 /* Build configuration list for PBXNativeTarget "llm-on-ios" */;
+			buildPhases = (
+				6F68A98A963C37D4F9E8E126 /* [CP] Check Pods Manifest.lock */,
+				2A0AD90E2CA815DB005838B7 /* Sources */,
+				2A0AD90F2CA815DB005838B7 /* Frameworks */,
+				2A0AD9102CA815DB005838B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "llm-on-ios";
+			productName = "llm-on-ios";
+			productReference = 2A0AD9122CA815DB005838B7 /* llm-on-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0AD90A2CA815DB005838B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2A0AD9112CA815DB005838B7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A0AD90D2CA815DB005838B7 /* Build configuration list for PBXProject "llm-on-ios" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0AD9092CA815DB005838B7;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 2A0AD9132CA815DB005838B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0AD9112CA815DB005838B7 /* llm-on-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0AD9102CA815DB005838B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AD9322CA815EF005838B7 /* Preview Assets.xcassets in Resources */,
+				2A0AD92C2CA815E5005838B7 /* Assets.xcassets in Resources */,
+				2A0AD9342CA81D12005838B7 /* gemma-2b-it-cpu-int4.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F68A98A963C37D4F9E8E126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-llm-on-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0AD90E2CA815DB005838B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AD9292CA815E5005838B7 /* ContentView.swift in Sources */,
+				2A0AD9362CA820BE005838B7 /* llm.swift in Sources */,
+				2A0AD92A2CA815E5005838B7 /* llm_on_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A0AD91E2CA815DC005838B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A0AD91F2CA815DC005838B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0AD9212CA815DC005838B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1265D47AFD2842160DA72A15 /* Pods-llm-on-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"llm-on-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andrew.llm-on-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A0AD9222CA815DC005838B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD63CE06271293E6FA9AD0FF /* Pods-llm-on-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"llm-on-ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andrew.llm-on-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0AD90D2CA815DB005838B7 /* Build configuration list for PBXProject "llm-on-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0AD91E2CA815DC005838B7 /* Debug */,
+				2A0AD91F2CA815DC005838B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0AD9202CA815DC005838B7 /* Build configuration list for PBXNativeTarget "llm-on-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0AD9212CA815DC005838B7 /* Debug */,
+				2A0AD9222CA815DC005838B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0AD90A2CA815DB005838B7 /* Project object */;
+}

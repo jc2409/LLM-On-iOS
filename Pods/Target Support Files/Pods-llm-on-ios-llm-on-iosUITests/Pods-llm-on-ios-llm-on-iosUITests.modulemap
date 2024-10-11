@@ -1,0 +1,6 @@
+framework module Pods_llm_on_ios_llm_on_iosUITests {
+  umbrella header "Pods-llm-on-ios-llm-on-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
